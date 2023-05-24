@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    margin-bottom: 20px;
+    background-color: rgb(189, 134, 241);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item__content {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(38, 38, 138);
+    margin: 20px;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+}
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item3__content{
+    /* flex-basis: 33.33%; */
+    flex:1 1 30%;
+    background-color: rgb(38, 38, 138);
+    margin: 10px;
+    box-sizing: border-box;
+    height: 200px;
+
+}
