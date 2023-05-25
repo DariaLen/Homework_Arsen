@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 main{
-    margin: 100px 0;
+    margin: 5% 0;
 }
-input.text:focus{
-    border-color:#FFE44D;
-}
+input:focus {
+    outline: none;
+    border: 1px solid #ffe44d;
+  }
 .registarion-form{
     margin: 0 auto;
     width: 35%;
@@ -43,15 +44,8 @@ p{
     padding: 14px 16px;
     border-radius: 12px;
     border: 1px solid #CFD8DC;
-}
-/* .daten__user:focus{
-    border-color:#FFE44D;
-} */
-.activ{
-    border: 1px solid #FFE44D;
     caret-color: #FFE44D;
 }
-
 .sending{
     display: flex;
     flex-direction: column;
@@ -64,7 +58,7 @@ text-align: center;
 border-radius: 55px;
 border: 1px solid  rgba(207, 216, 220, 1);
 background-color: rgb(0, 0, 0, 0);
-
+cursor: pointer;
 }
 .button-activ{
     background-color: rgba(255, 228, 77, 1);
