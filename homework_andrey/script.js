@@ -70,6 +70,8 @@ console.log(negativNumbers([1, -5, 3, -6, -2]));
 // const DeprturTime = +prompt("Enter the departure time");  //2:00
 // const arrivalTime = DeprturTime + FlightTime
 
+
+
 //8.Написать функцию, которая принимает товары (массив объектов)
 // и возвращает строку Самый дорогой товар <НАЗВАНИЕ> стоит <NN> EUR
 
@@ -120,9 +122,7 @@ console.log(sumOddNumbers(3, 10));
 // (у кого шансов на победу больше)
 
 const playerslist = [
-  { players_name: "Ivan", 
-    damage: 80 
-  },
+  { players_name: "Ivan", damage: 80 },
   {
     players_name: "Mark",
     damage: 120,
@@ -130,17 +130,15 @@ const playerslist = [
 ];
 
 function comprPlayerDamage(playersArray) {
-    let playerWinn = 0;
-    const playerOne = playersArray[0].damage;
-    const playerTwo = playersArray[1].damage;
-    if(playerOne < playerTwo){
-        return `${playersArray[0].players_name} has more chances to win `;
-    } else if (playerOne == playerTwo){
-        return "Players have an equal chance of winning"
-    }
-    else {
-        return `${playersArray[1].players_name} has more chances to win `
-    }
-    
+  let playerWinn = 0;
+  const playerOne = playersArray[0].damage;
+  const playerTwo = playersArray[1].damage;
+  if (playerOne < playerTwo) {
+    return `${playersArray[0].players_name} has more chances to win `;
+  } else if (playerOne == playerTwo) {
+    return "Players have an equal chance of winning";
+  } else {
+    return `${playersArray[1].players_name} has more chances to win `;
+  }
 }
 console.log(comprPlayerDamage(playerslist));
