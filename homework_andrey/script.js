@@ -70,7 +70,36 @@ console.log(negativNumbers([1, -5, 3, -6, -2]));
 // const DeprturTime = +prompt("Enter the departure time");  //2:00
 // const arrivalTime = DeprturTime + FlightTime
 
+// let x = +prompt("Во сколько вылет?")
+// let z = +prompt("Сколько летел")
 
+// // сравнение числа 
+// function plain(x, z) {  //12 6
+//     if (z > 24) {
+//         let y = z % 24
+//         if (y > 0) {
+//             let w = y + x //28
+//             if(w <= 24){
+//             console.log(w)} else{
+//               console.log(w % 24)
+//             }
+          
+//           } 
+           
+//         // } if (hour > 24) {
+//         //     let w = hour - 24
+//         //     console.log(w)
+//         // } 
+//         // нужно вызывать еще один if сдесь потому что мы тут можем получить число больше 24 , такого числа нет 
+//     } else if (z < 12) {
+//         console.log(x + z)
+//     } else {
+//         let w = z - 24
+//         console.log(w + x)
+//     }
+// }
+
+// console.log(plain(x, z)) 
 
 //8.Написать функцию, которая принимает товары (массив объектов)
 // и возвращает строку Самый дорогой товар <НАЗВАНИЕ> стоит <NN> EUR
