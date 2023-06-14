@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(34, 30, 46);
+}
+.text{
+    font-size: 24px;
+    color: blueviolet;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product {
+    background-color: #f3dede6d;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    width: 30vw;
+    border-radius: 10px;
+}
+h5, h3 {
+    font-size: 26px;
+    color: rgb(35, 34, 34);
+}
+p{
+    font-size: 20px;
+    color: rgb(251, 251, 251);
+}
+
+
+button{
+    width: 10vw;
+    background-color: rgb(38, 25, 51);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+    font-size:20px;
+}
+button:hover{
+    transform: scale(1.1);
+}
