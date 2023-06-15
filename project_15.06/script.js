@@ -83,26 +83,3 @@ for(let i = 0; i < arrUsers.length; i++) {
     }
 }
 
-// const users = [
-//     { first_name: 'John', last_name: 'Doe', age: 25 },
-//     { first_name: 'Jane', last_name: 'Doe', age: 17 },
-//     { first_name: 'Bob', last_name: 'Smith', age: 33 },
-//     { first_name: 'Alice', last_name: 'Johnson', age: 21 }
-//   ];
-  
-//   const usersContainer = document.querySelector('.users_container');
-  
-//   for (let i = 0; i < users.length; i++) {
-//     const user = users[i];
-//     if (user.age >= 18) {
-//       const userCard = document.createElement('div');
-//       userCard.classList.add('user_card');
-//       const name = document.createElement('h3');
-//       name.textContent = user.first_name + ' ' + user.last_name;
-//       const age = document.createElement('p');
-//       age.textContent = 'Age: ' + user.age;
-//       userCard.appendChild(name);
-//       userCard.appendChild(age);
-//       usersContainer.appendChild(userCard);
-//     }
-//   }
